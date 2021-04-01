@@ -1,0 +1,14 @@
+def main():
+
+ # Write code here 
+    n=int(input())
+    r = 0
+    count=0
+    while n!=0:
+        count+=1
+        rem = n % 10
+        r = r*10+rem
+        n//=10
+    print(count)
+
+main()
