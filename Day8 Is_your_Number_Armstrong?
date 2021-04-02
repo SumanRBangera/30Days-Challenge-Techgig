@@ -1,0 +1,16 @@
+def main():
+
+ # Write code here 
+    n = int(input())
+    rev = 0
+    temp = n
+    while temp>0:
+        rem = temp%10
+        rev = rev+rem**3
+        temp//=10
+    if n==rev:
+        print("True")
+    else:
+        print('False')
+main()
+
