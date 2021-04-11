@@ -1,4 +1,4 @@
-def mat_input():
+def input_array():
     row, col = map(int,input().split())
     arr=[]
     for i in range(row):
@@ -6,8 +6,8 @@ def mat_input():
     return arr
 
 def main():
-    arr1 = mat_input()
-    arr2 = mat_input()
+    arr1 = input_array()
+    arr2 = input_array()
     arr3 = []
     for i in range(len(arr1)):
         new = []
