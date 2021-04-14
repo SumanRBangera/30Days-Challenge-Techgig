@@ -1,0 +1,28 @@
+def main():
+
+ # Write code here 
+   n = int(input())
+   a = list(map(int,input().split()))
+   c1,c2=0,0
+   add1,add2=0,0
+   
+   for i in a:
+       if i%2==0:
+           c1+=1
+           add1+=i
+       else:
+            add2+=i
+            c2+=1
+   if c1>0:
+       avg1=round(add1/c1)
+   else:
+       avg1=0
+   if c2>0:
+      avg2=round(add2/c2)
+   else:
+       avg2=0
+   print(avg1+avg2,end=" ")
+
+        
+
+main()
