@@ -1,0 +1,11 @@
+def main():
+
+ # Write code here 
+   n = int(input())
+   s = str(n)
+   for i in s:
+       for j in s:
+           if int(i)>int(j):
+               break
+   print(int(i))
+main()
