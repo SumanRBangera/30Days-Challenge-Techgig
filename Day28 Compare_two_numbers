@@ -1,0 +1,18 @@
+def main():
+
+ # Write code here 
+   n,no =map(int,input().split())
+   s = str(n)
+   ss = str(no)
+   sum1,sum2=0,0
+   for i in s:
+       sum1+=int(i)
+   for i in ss:
+       sum2+=int(i)
+   if sum1>sum2:
+       print(s)
+   else:
+       print(ss)
+
+    
+main()
